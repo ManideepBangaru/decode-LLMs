@@ -35,6 +35,7 @@ for word in all_words:
             next_words[window[0]] = [window[1]]
             window.pop(0)
 
+# predict next word
 import random
 # random.seed(0)
 
